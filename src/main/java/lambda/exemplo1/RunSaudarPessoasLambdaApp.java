@@ -32,11 +32,7 @@ public class RunSaudarPessoasLambdaApp {
         SaudacaoInterface teste;
         teste = () -> System.out.println("\nYou can also perform a inline function");
 
-        s = () -> {
-            for (int i = 0; i < 10; i++) {
-                teste.saudar();
-            }
-        };
+        s = () -> {for (int i = 0; i < 10; i++) {teste.saudar();}};
 
         s.saudar();
     }
