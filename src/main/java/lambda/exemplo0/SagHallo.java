@@ -7,4 +7,8 @@ public class SagHallo implements SaudacaoInterface {
         System.out.println("Hallo, Leute!");
     }
 
+    // @Override
+    // public void despedir() {
+    // System.out.println("Bis später, Freunde!");
+    // }
 }

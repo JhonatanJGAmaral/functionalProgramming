@@ -7,4 +7,8 @@ public class SayHi implements SaudacaoInterface {
         System.out.println("Hi There!");
     }
 
+    // @Override
+    // public void despedir() {
+    // System.out.println("See you, guys!");
+    // }
 }

@@ -7,4 +7,9 @@ public class DizerOi implements SaudacaoInterface {
         System.out.println("Oi, pessoal!");
     }
 
+    // @Override
+    // public void despedir() {
+    // System.out.println("Até logo, amigos!");
+    // }
+
 }

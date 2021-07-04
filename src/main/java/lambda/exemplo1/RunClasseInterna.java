@@ -12,6 +12,11 @@ public class RunClasseInterna {
             public void saudar() {
                 System.out.println("\nOi, galero");
             }
+
+            // @Override
+            // public void despedir() {
+            // System.out.println("Até logo, abigos!");
+            // }
         };
 
         s.saudar();
@@ -21,6 +26,11 @@ public class RunClasseInterna {
             public void saudar() {
                 System.out.println("\nBele truta?");
             }
+
+            // @Override
+            // public void despedir() {
+            // System.out.println("Até logo, amigos!");
+            // }
         };
 
         bele.saudar();

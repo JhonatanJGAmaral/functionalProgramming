@@ -13,4 +13,9 @@ public interface SaudacaoInterface {
     // Logo, a sintaxe abaixo é a mais comumente usada
     void saudar();
 
+    // public abstract void despedir(); //Se houver + de um método por interface,
+    // nenhuma classe que implementá-la será capaz de fazer uso destes métodos
+    // nem fazendo uso de programção funcional ou não
+
+    // LOGOO, uma interface funcional deve possuir um e somente UM método
 }
